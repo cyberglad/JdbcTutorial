@@ -16,9 +16,9 @@ import java.util.Properties;
 public class Util
 {
 
-    private     String URL = "jdbc:sqlserver://jcaps-db-prod;instanceName=JCAPS;database=jcaps_mapping_Q"; // ;user=xxx;password=xxx";
-    private     String USERNAME = "jcaps";
-    private     String PASSWORD = "jcaps";
+    private     String URL = "jdbc:sqlserver://test-db-prod;instanceName=JCAPS;database=db_jdbc_tutorial"; // ;user=xxx;password=xxx";
+    private     String USERNAME = "test";
+    private     String PASSWORD = "test";
     private     String DRIVER = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
 
     public  Connection getConnection() {
